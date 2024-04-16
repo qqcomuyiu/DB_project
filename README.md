@@ -1,6 +1,7 @@
 (Based on linux)
 
 To run this, first download django by:
+
 sudo apt update
 
 sudo apt install python3-pip (If you don't have python)
