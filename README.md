@@ -2,8 +2,8 @@
 
 To run this, first download django by:
 sudo apt update
-sudo apt install python3-pip (If you don't have python)
-pip3 install django
+                      sudo apt install python3-pip (If you don't have python)
+                        pip3 install django
 
 Then:
 
