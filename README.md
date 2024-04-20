@@ -19,8 +19,8 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Visit http://127.0.0.1:8000/accounts/signup to register
+Visit ```http://127.0.0.1:8000/accounts/signup``` to register
 
-Visit http://127.0.0.1:8000/accounts/login to login
+Visit ```http://127.0.0.1:8000/accounts/login``` to login
 
-Visit http://127.0.0.1:8000/admin to login the Django Admin Backend
+Visit ```http://127.0.0.1:8000/admin``` to login the Django Admin Backend
