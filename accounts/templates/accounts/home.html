@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.username }}</h1>
+    <p>This is your home page.</p>
+    <a href="{% url 'edit_profile' %}">Edit Profile</a><br>
+    <a href="{% url 'logout' %}">Logout</a>
+</body>
+</html>
