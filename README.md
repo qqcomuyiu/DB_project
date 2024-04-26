@@ -10,7 +10,7 @@ pip3 install django
 Then create database: 
 ```
 python manage.py makemigrations
-python manage.py migrate
+python manage.py migrate --run-syncdb
 ```
 
 Then create a superuser to manage the admin backend:
@@ -19,7 +19,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Visit ```http://127.0.0.1:8000/accounts/signup``` to register
+Visit ```http://127.0.0.1:8000/accounts/register``` to register
 
 Visit ```http://127.0.0.1:8000/accounts/login``` to login
 
